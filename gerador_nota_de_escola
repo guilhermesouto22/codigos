@@ -1,0 +1,19 @@
+//gerador de media de escola
+puts "digite o seu nome"
+nome = gets.chomp
+
+puts "Digite o nome da materia"
+materia= gets.chomp
+
+puts "digite a nota do 1 trimestre"
+nota1=gets.chomp.to_f
+
+puts "digite a nota do 2 trimestre"
+nota2=gets.chomp.to_f
+
+puts "digite a nota de 3 trimestre"
+notafinal=gets.chomp.to_f
+
+media=((nota1+nota2+notafinal)/3)
+
+puts "Olá #{nome} sua media na materia #{materia} é #{media}"
